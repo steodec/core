@@ -1,0 +1,25 @@
+{
+  "name": "steodec/project",
+  "version": "2.0",
+  "description": "Micro Framework php for web App",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Paul Tedesco",
+      "email": "paul.tedesco@humbrain.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "salernolabs/php-to-xml": "^1.0",
+    "ext-dom": "*",
+    "ext-pdo": "*"
+  }
+}
