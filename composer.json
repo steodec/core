@@ -20,6 +20,10 @@
     "vlucas/phpdotenv": "^5.4",
     "salernolabs/php-to-xml": "^1.0",
     "ext-dom": "*",
-    "ext-pdo": "*"
+    "ext-pdo": "*",
+    "steodec/orm": "1.1.2",
+    "steodec/router": "2.0",
+    "steodec/cli": "0.0.1",
+    "steodec/controllers": "1.0.1"
   }
 }
