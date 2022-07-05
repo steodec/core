@@ -1,0 +1,20 @@
+{
+  "name": "steodec/project-v2",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Steodec",
+      "email": "paul.tedesco@humbrain.com"
+    }
+  ],
+  "require": {
+    "steodec/steo-frame-work": "0.0.3",
+    "vlucas/phpdotenv": "v5.0.0"
+  }
+}
